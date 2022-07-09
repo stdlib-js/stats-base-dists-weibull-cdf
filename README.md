@@ -72,7 +72,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.cdf;
+})();
 })();
 </script>
 ```
@@ -160,6 +162,7 @@ y = mycdf( 8.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-cdf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var lambda;
 var k;
@@ -175,6 +178,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 'x: %d, k: %d, λ: %d, F(x;k,λ): %d', x, k, lambda, y );
 }
 
+})();
 })();
 </script>
 </body>
