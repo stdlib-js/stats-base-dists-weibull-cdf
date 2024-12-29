@@ -2,6 +2,51 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-12-29)
+
+<section class="features">
+
+### Features
+
+-   [`f9f468e`](https://github.com/stdlib-js/stdlib/commit/f9f468e240d7e5b5d155279e4386b8b606cd8227) - add C implementation of `stats/base/dists/weibull/cdf`
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`f9f468e`](https://github.com/stdlib-js/stdlib/commit/f9f468e240d7e5b5d155279e4386b8b606cd8227) - **feat:** add C implementation of `stats/base/dists/weibull/cdf` _(by Vinit Pandit, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Vinit Pandit
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
