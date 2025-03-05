@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-09)
+## Unreleased (2025-03-05)
 
 <section class="features">
 
@@ -16,12 +16,25 @@
 
 <!-- /.features -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#4992](https://github.com/stdlib-js/stdlib/issues/4992)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`1ebcfd6`](https://github.com/stdlib-js/stdlib/commit/1ebcfd618beaf055a7097c89f3794d507fd14947) - **bench:** refactor random number generation in `stats/base/dists/weibull` [(#5342)](https://github.com/stdlib-js/stdlib/pull/5342) _(by Gaurav)_
 -   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`c4ef550`](https://github.com/stdlib-js/stdlib/commit/c4ef5500174a0d77a90b1a72be560938ac56d58d) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`97c434d`](https://github.com/stdlib-js/stdlib/commit/97c434de1ac819d4f616202b10ebdce3970a76d8) - **chore:** directly draw from the desired distribution instead of adding constants _(by Philipp Burckhardt)_
@@ -41,9 +54,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gaurav
 -   Philipp Burckhardt
 -   Vinit Pandit
 
