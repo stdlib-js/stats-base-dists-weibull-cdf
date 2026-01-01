@@ -162,22 +162,18 @@ y = mycdf( 8.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var randu = require( '@stdlib/random-base-randu' );
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
 var cdf = require( '@stdlib/stats-base-dists-weibull-cdf' );
 
-var lambda;
-var k;
-var x;
-var y;
-var i;
+var opts = {
+    'dtype': 'float64'
+};
+var lambda = uniform( 10, 0.0, 10.0, opts );
+var k = uniform( 10, 0.0, 10.0, opts );
+var x = uniform( 10, 0.0, 10.0, opts );
 
-for ( i = 0; i < 10; i++ ) {
-    x = randu() * 10.0;
-    lambda = randu() * 10.0;
-    k = randu() * 10.0;
-    y = cdf( x, k, lambda );
-    console.log( 'x: %d, k: %d, λ: %d, F(x;k,λ): %d', x, k, lambda, y );
-}
+logEachMap( 'x: %0.4f, k: %0.4f, λ: %0.4f, F(x;k,λ): %0.4f', x, k, lambda, cdf );
 ```
 
 </section>
@@ -316,7 +312,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -342,8 +338,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
