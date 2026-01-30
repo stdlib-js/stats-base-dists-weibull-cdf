@@ -67,7 +67,7 @@ where `lambda > 0` is the [scale parameter][scale] and `k > 0` is the [shape par
 To use in Observable,
 
 ```javascript
-cdf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-cdf@umd/browser.js' )
+cdf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-cdf@v0.3.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -79,7 +79,7 @@ var cdf = require( 'path/to/vendor/umd/stats-base-dists-weibull-cdf/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-cdf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-cdf@v0.3.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -173,7 +173,7 @@ y = mycdf( 8.0 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-cdf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull-cdf@v0.3.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
