@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-01-31)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`186140c`](https://github.com/stdlib-js/stdlib/commit/186140c35eeb2285177275b7c4027f95406d444a) - **bench:** update random value generation [(#9991)](https://github.com/stdlib-js/stdlib/pull/9991) _(by Harsh Yadav)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Harsh Yadav
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2026-01-30)
